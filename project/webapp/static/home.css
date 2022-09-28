@@ -1,15 +1,58 @@
-.nav {
-  display: flex;
-  flex-direction: row;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Ubuntu:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
-.logo {
-  font-size: 20px;
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
 }
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: flex-end;
+
+p{
+    color:#8f8f8f;
 }
-.nav-list-items {
+/* headings */
+.big-heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* containers */
+.container-fluid{
+    padding: 0 2.5rem 0 2rem;
+}
+
+/* sections */
+.colored-section{
+    background-color:#008080 ;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Navigation bar */
+
+.navbar{
+    padding:2rem 0 2.5rem 0;
+}
+
+.navbar-brand{
+    font-family:'Merriweather', serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem ;
+    font-weight:400;
 }
