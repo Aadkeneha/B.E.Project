@@ -196,6 +196,8 @@ def group_account(request):
                 i.save()
                 i.status = "N"
                 i.save()
+                i.remark = ""
+                i.save()
         for i in gr:
             rad = i.guide
             print(rad)
